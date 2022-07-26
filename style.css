@@ -1,0 +1,22 @@
+*{
+   padding: 0;  
+   margin: 0;  
+   box-sizing: border-box;
+}
+
+h1::before{
+   content: "Read this please";   
+   color: red;  
+   font-size: small;
+}
+
+h1::after{
+   content: "  Hello!";
+   font-size: small;
+}
+
+@media screen and (max-width: 800px){
+   h1{
+      color: blue;
+   }  
+}
